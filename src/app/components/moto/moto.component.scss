@@ -1,0 +1,17 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px; /* Adjust as needed */
+}
+
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 600ms ease-in-out;
+}
+
+.carousel-item.current {
+  display: block;
+}

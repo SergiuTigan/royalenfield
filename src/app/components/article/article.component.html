@@ -1,0 +1,29 @@
+<div class="flex justify-center items-center p-5 flex-col w-full">
+  @if (motorcycle) {
+    <h1 class="font-bold text-blue-950 text-3xl">{{ motorcycle.titlu }}</h1>
+    <img [src]="'assets/moto/'+ motorcycle.name + '/' + motorcycle.imageSources[0].src + '.png'" alt="" width="500px">
+    <div class="w-full p-2 md:w-1/2 italic" [innerHTML]="motorcycle.articleBody"></div>
+  }
+</div>
+<div class="overflow-x-auto">
+  <table class="min-w-full bg-white border border-gray-200">
+    <thead>
+    <tr>
+      <th class="px-4 py-2 border-b">Model</th>
+      <th class="px-4 py-2 border-b">Colors</th>
+      <th class="px-4 py-2 border-b">Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let price of motorcyclePrices">
+      <td class="px-4 py-2 border-b">{{ price.model }}</td>
+      <td class="px-4 py-2 border-b">
+        <ul>
+          <li *ngFor="let color of price.colors">{{ color }}</li>
+        </ul>
+      </td>
+      <td class="px-4 py-2 border-b">{{ price.price }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
