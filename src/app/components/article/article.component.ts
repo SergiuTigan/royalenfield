@@ -1,4 +1,4 @@
-import { AfterContentInit, Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MotorcycleService } from '../../services/motorcycle.service';
 import { IMoto } from '../../interfaces/moto.interface';
@@ -13,7 +13,7 @@ import { NgForOf } from '@angular/common';
   templateUrl: './article.component.html',
   styleUrl: './article.component.scss'
 })
-export class ArticleComponent implements OnInit, AfterContentInit {
+export class ArticleComponent implements OnInit {
   motorcycle!: IMoto;
   motorcyclePrices: any = [];
 
@@ -25,12 +25,8 @@ export class ArticleComponent implements OnInit, AfterContentInit {
     this.motorcycleService.getMotorcycles().subscribe((data: IMoto[]) => {
       this.motorcycle = data.find((moto: IMoto) => moto.name === this.route.snapshot.params['id']) || <IMoto>{};
     });
-  }
-
-  ngAfterContentInit() {
     this.motorcycleService.getPrices().subscribe((data: any) => {
       this.motorcyclePrices = data.filter((moto: any) => moto.name === this.route.snapshot.params['id']);
     });
-
   }
 }

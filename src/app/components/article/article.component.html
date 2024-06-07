@@ -5,25 +5,27 @@
     <div class="w-full p-2 md:w-1/2 italic" [innerHTML]="motorcycle.articleBody"></div>
   }
 </div>
-<div class="overflow-x-auto">
-  <table class="min-w-full bg-white border border-gray-200">
-    <thead>
-    <tr>
-      <th class="px-4 py-2 border-b">Model</th>
-      <th class="px-4 py-2 border-b">Colors</th>
-      <th class="px-4 py-2 border-b">Price</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr *ngFor="let price of motorcyclePrices">
-      <td class="px-4 py-2 border-b">{{ price.model }}</td>
-      <td class="px-4 py-2 border-b">
-        <ul>
-          <li *ngFor="let color of price.colors">{{ color }}</li>
-        </ul>
-      </td>
-      <td class="px-4 py-2 border-b">{{ price.price }}</td>
-    </tr>
-    </tbody>
-  </table>
+<div class="overflow-x-auto flex justify-center items-center pb-10">
+  @if (motorcyclePrices.length > 0) {
+    <table class="custom-table w-[48.5%]">
+      <thead>
+      <tr>
+        <th>Model</th>
+        <th>Colors</th>
+        <th>Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let price of motorcyclePrices[0].prices">
+        <td>{{ price.model }}</td>
+        <td>
+          <ul>
+            <li *ngFor="let color of price.colors">{{ color }}</li>
+          </ul>
+        </td>
+        <td>{{ price.price }}</td>
+      </tr>
+      </tbody>
+    </table>
+  }
 </div>
