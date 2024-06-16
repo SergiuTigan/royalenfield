@@ -1,21 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { IMoto } from '../../interfaces/moto.interface';
-import { MotorcycleService } from '../../services/motorcycle.service';
+import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
+  standalone: true,
+  imports: [
+    RouterLink
+  ],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrl: './home.component.scss'
 })
-export class HomeComponent implements OnInit {
-  motos: IMoto[] = [];
+export class HomeComponent {
 
-  constructor(private motorcycleService: MotorcycleService) {
-  }
-
-  ngOnInit() {
-    this.motorcycleService.getMotorcycles().subscribe((data: IMoto[]) => {
-      this.motos = data;
-    });
-  }
 }
