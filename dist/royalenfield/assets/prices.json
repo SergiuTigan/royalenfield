@@ -5,9 +5,18 @@
       {
         "model": "Hunter 350 - Rebel",
         "colors": [
-          "Red",
-          "Blue",
-          "Black"
+          {
+            "name": "Red",
+            "src": "Rebel Red"
+          },
+          {
+            "name": "Blue",
+            "src": "Rebel Blue"
+          },
+          {
+            "name": "Black",
+            "src": "Rebel Black"
+          }
         ],
         "price": "4,450 €"
       }
@@ -19,32 +28,56 @@
       {
         "model": "Meteor 350 - Fireball",
         "colors": [
-          "Red",
-          "Matt Green",
-          "Black"
+          {
+            "name": "Red",
+            "src": "Fireball Red"
+          },
+          {
+            "name": "Matt Green",
+            "src": "Fireball Matt Green"
+          },
+          {
+            "name": "Black",
+            "src": "Fireball Black"
+          }
         ],
         "price": "4,500 €"
       },
       {
         "model": "Meteor 350 - Stellar",
         "colors": [
-          "Black"
+          {
+            "name": "Stellar Black",
+            "src": "Stellar Black"
+          }
         ],
         "price": "4,600 €"
       },
       {
         "model": "Meteor 350 - Aurora",
         "colors": [
-          "Blue",
-          "Green",
-          "Black (Spoke Wheels)"
+          {
+            "name": "Blue",
+            "src": "Aurora Blue"
+          },
+          {
+            "name": "Green",
+            "src": "Aurora Green"
+          },
+          {
+            "name": "Black (Spoke Wheels)",
+            "src": "Aurora Black"
+          }
         ],
         "price": "4,700 €"
       },
       {
         "model": "Meteor 350 - Supernova",
         "colors": [
-          "Red"
+          {
+            "name": "Red",
+            "src": "SuperNova Red"
+          }
         ],
         "price": "4,700 €"
       }
@@ -56,40 +89,70 @@
       {
         "model": "Classic 350 - Halcyon",
         "colors": [
-          "Black",
-          "Green"
+          {
+            "name": "Black",
+            "src": "Halcyon Black"
+          },
+          {
+            "name": "Green",
+            "src": "Halcyon Green"
+          }
         ],
         "price": "5,000 €"
       },
       {
         "model": "Classic 350 - Signals",
         "colors": [
-          "Desert Sand",
-          "Marsh Grey"
+          {
+            "name": "Desert Sand",
+            "src": "Signal Desert Sand"
+          },
+          {
+            "name": "Marsh Grey",
+            "src": "Signal Marsh Grey"
+          }
         ],
         "price": "5,100 €"
       },
       {
         "model": "Classic 350 - Dark",
         "colors": [
-          "Gunmetal Grey",
-          "Stealth Black"
+          {
+            "name": "Gunmetal Grey",
+            "src": "Gunmetal Grey"
+          },
+          {
+            "name": "Stealth Black",
+            "src": "Dark Stealth Black"
+          }
         ],
         "price": "5,100 €"
       },
       {
         "model": "Classic 350 - Dark (Alloy)",
         "colors": [
-          "Gunmetal Grey",
-          "Stealth Black"
+          {
+            "name": "Gunmetal Grey",
+            "src": "Gunmetal Grey"
+          },
+          {
+            "name": "Stealth Black",
+            "src": "Dark Stealth Black"
+          }
         ],
         "price": "5,150 €"
       },
       {
         "model": "Classic 350 - Chrome",
         "colors": [
-          "Red",
-          "Bronze"
+          {
+            "name": "Red",
+            "src": "Chrome Red"
+          },
+          {
+            "name": "Bronze",
+            "src": "Chrome Bronze"
+          }
         ],
         "price": "5,200 €"
       }
@@ -101,15 +164,24 @@
       {
         "model": "Bullet 350",
         "colors": [
-          "The Standard Black",
-          "The Standard Maroon"
+          {
+            "name": "The Standard Black",
+            "src": "The Standard Black"
+          },
+          {
+            "name": "The Standard Maroon",
+            "src": "The Standard Maroon"
+          }
         ],
         "price": "5,150 €"
       },
       {
         "model": "Bullet 350",
         "colors": [
-          "Black Gold"
+          {
+            "name": "Black Gold",
+            "src": "Black Gold"
+          }
         ],
         "price": "5,250 €"
       }
@@ -121,19 +193,40 @@
       {
         "model": "Scram 411 - Graphite",
         "colors": [
-          "Blue",
-          "Red",
-          "Yellow"
+          {
+            "name": "Blue",
+            "src": "Graphite Blue"
+          },
+          {
+            "name": "Red",
+            "src": "Graphite Red"
+          },
+          {
+            "name": "Yellow",
+            "src": "Graphite Yellow"
+          }
         ],
         "price": "5,200 €"
       },
       {
         "model": "Scram 411 - Premium",
         "colors": [
-          "White Flame",
-          "Silver Spirit",
-          "Blazing Black",
-          "Skyline Blue"
+          {
+            "name": "White Flame",
+            "src": "Premium White Flame"
+          },
+          {
+            "name": "Silver Spirit",
+            "src": "Premium Silver Spirit"
+          },
+          {
+            "name": "Blazing Black",
+            "src": "Premium Blazing Black"
+          },
+          {
+            "name": "Skyline Blue",
+            "src": "Premium Skyline Blue"
+          }
         ],
         "price": "5,300 €"
       }
@@ -145,18 +238,36 @@
       {
         "model": "Himalayan 411 - Single",
         "colors": [
-          "Gravel Grey"
+          {
+            "name": "Gravel Grey",
+            "src": "Gravel Grey"
+          }
         ],
         "price": "5,300 €"
       },
       {
         "model": "Himalayan 411 - Premium",
         "colors": [
-          "Pine Green",
-          "Granite Black",
-          "Dune Brown",
-          "Glacier Blue",
-          "Sleet Black"
+          {
+            "name": "Pine Green",
+            "src": "Premium Pine Green"
+          },
+          {
+            "name": "Granite Black",
+            "src": "Premium Granite Black"
+          },
+          {
+            "name": "Dune Brown",
+            "src": "Premium Dune Brown"
+          },
+          {
+            "name": "Glacier Blue",
+            "src": "Premium Glacier Blue"
+          },
+          {
+            "name": "Sleet Black",
+            "src": "Premium Sleet Black"
+          }
         ],
         "price": "5,400 €"
       }
@@ -168,29 +279,44 @@
       {
         "model": "Himalayan 450 - Base",
         "colors": [
-          "Kaza Brown"
+          {
+            "name": "Kaza Brown",
+            "src": "Base Kaza Brown"
+          }
         ],
         "price": "5,900 €"
       },
       {
         "model": "Himalayan 450 - Mid",
         "colors": [
-          "Slate Himalayan Salt",
-          "Slate Himalayan Poppy Blue"
+          {
+            "name": "Slate Himalayan Salt",
+            "src": "Mid Slate Himalayan Salt"
+          },
+          {
+            "name": "Slate Himalayan Poppy Blue",
+            "src": "Mid Slate Himalayan Poppy Blue"
+          }
         ],
         "price": "6,000 €"
       },
       {
         "model": "Himalayan 450 - Top",
         "colors": [
-          "Hanle Black"
+          {
+            "name": "Hanle Black",
+            "src": "Top Hanle Black"
+          }
         ],
         "price": "6,200 €"
       },
       {
         "model": "Himalayan 450 - Top",
         "colors": [
-          "Kamet White Tubeless"
+          {
+            "name": "Kamet White Tubeless",
+            "src": "Top Kamet White Tubeless"
+          }
         ],
         "price": "6,450 €"
       }
@@ -202,22 +328,34 @@
       {
         "model": "Shotgun 650",
         "colors": [
-          "Sheet Metal Grey"
+          {
+            "name": "Sheet Metal Grey",
+            "src": "Sheet Metal Grey"
+          }
         ],
         "price": "7,400 €"
       },
       {
         "model": "Shotgun 650",
         "colors": [
-          "Green Drill",
-          "Plasma Blue"
+          {
+            "name": "Green Drill",
+            "src": "Green Drill"
+          },
+          {
+            "name": "Plasma Blue",
+            "src": "Plasma Blue"
+          }
         ],
         "price": "7,500 €"
       },
       {
         "model": "Shotgun 650",
         "colors": [
-          "Stencil White"
+          {
+            "name": "Stencil White",
+            "src": "Stencil White"
+          }
         ],
         "price": "7,600 €"
       }
@@ -229,23 +367,38 @@
       {
         "model": "Interceptor 650 - Single",
         "colors": [
-          "Canyon Red"
+          {
+            "name": "Canyon Red",
+            "src": "Single Canyon Red"
+          }
         ],
         "price": "7,200 €"
       },
       {
         "model": "Interceptor 650 - Dual",
         "colors": [
-          "Sunset Strip"
+          {
+            "name": "Sunset Strip",
+            "src": "Dual Sunset Strip"
+          }
         ],
         "price": "7,200 €"
       },
       {
         "model": "Interceptor 650 - Alloy/Custom",
         "colors": [
-          "Barcelona Blue",
-          "Black Ray",
-          "Mark 2"
+          {
+            "name": "Barcelona Blue",
+            "src": "Alloy - Custom Barcelona Blue"
+          },
+          {
+            "name": "Black Ray",
+            "src": "Alloy - Custom Black Ray"
+          },
+          {
+            "name": "Mark 2",
+            "src": "Alloy - Custom Mark 2"
+          }
         ],
         "price": "7,500 €"
       }
@@ -257,47 +410,83 @@
       {
         "model": "GT 650 - Single",
         "colors": [
-          "Rocker Red",
-          "British Racing Green"
+          {
+            "name": "Rocker Red",
+            "src": "Single Rocker Red"
+          },
+          {
+            "name": "British Racing Green",
+            "src": "Single British Racing Green"
+          }
         ],
         "price": "7,200 €"
       },
       {
         "model": "GT 650 - Alloy/Custom",
         "colors": [
-          "Mr Clean",
-          "Apex Grey (Black engine)",
-          "Slipstream Blue (Black engine)"
+          {
+            "name": "Mr Clean",
+            "src": "Alloy - Custom Mr Clean"
+          },
+          {
+            "name": "Apex Grey (Black engine)",
+            "src": "Alloy - Custom Apex Grey (Black engine)"
+          },
+          {
+            "name": "Slipstream Blue (Black engine)",
+            "src": "Alloy - Custom Slipstream Blue (Black engine)"
+          }
         ],
         "price": "7,700 €"
       }
     ]
   },
   {
-    "name": "super650",
+    "name": "supermeteor650",
     "prices": [
       {
         "model": "Super Meteor 650 - Astral",
         "colors": [
-          "Blue",
-          "Black",
-          "Green"
+          {
+            "name": "Blue",
+            "src": "Astral Blue"
+          },
+          {
+            "name": "Black",
+            "src": "Astral Black"
+          },
+          {
+            "name": "Green",
+            "src": "Astral Green"
+          }
         ],
         "price": "7,450 €"
       },
       {
         "model": "Super Meteor 650 - Interstellar",
         "colors": [
-          "Grey",
-          "Green"
+          {
+            "name": "Grey",
+            "src": "Interstellar Grey"
+          },
+          {
+            "name": "Green",
+            "src": "Interstellar Green"
+          }
         ],
         "price": "7,650 €"
       },
       {
         "model": "Super Meteor 650 - Celestial",
         "colors": [
-          "Blue",
-          "Red"
+          {
+            "name": "Blue",
+            "src": "Celestial Blue"
+          },
+          {
+            "name": "Red",
+            "src": "Celestial Red"
+          }
         ],
         "price": "7,950 €"
       }
