@@ -7,7 +7,7 @@
 </div>
 <div class="overflow-x-auto flex justify-center items-center pb-10">
   @if (motorcyclePrices.length > 0) {
-    <table class="custom-table w-[48.5%]">
+    <table class="custom-table md:w-[48.5%] w-[85%]">
       <thead>
       <tr>
         <th>Model</th>
@@ -23,7 +23,7 @@
             <li *ngFor="let color of price.colors" (click)="openModal(color, price)" class="cursor-pointer text-blue-950">{{ color.name }}</li>
           </ul>
         </td>
-        <td>{{ price.price }}</td>
+        <td class="w-[25%] md:w-[50%]">{{ price.price }}</td>
       </tr>
       </tbody>
     </table>
